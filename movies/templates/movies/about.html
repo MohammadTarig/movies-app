@@ -1,0 +1,9 @@
+{% extends "movies/_base.html" %}
+
+<html>
+    {% block content %}
+    <h1>I like thriller movies</h1>
+    {% load static %}
+    <img src="{% static 'movies/zoro.jpg' %}" alt="Zoro">
+    {% endblock %}
+</html>
